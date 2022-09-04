@@ -5,7 +5,7 @@ function fillStartWord(startWord, word) {
 
     if (word == null || word == undefined) {
       return undefined;
-    } else if (startWord===word.slice(0, startWord)) {
+    } else if (startWord===word.slice(0, startWord.length)) {
       return word;
     } else {
       return startWord + word;
